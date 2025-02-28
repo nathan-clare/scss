@@ -1,0 +1,23 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-standard-scss"],
+  "plugins": ["stylelint-order"],
+  "overrides": [
+    {
+      "files": ["**/*.scss"],
+      "customSyntax": "postcss-scss"
+    }
+  ],
+  "rules": {
+    "order/properties-alphabetical-order": true,
+    "selector-class-pattern": [
+      "^[a-z][a-zA-Z0-9]+$",
+      {
+        "message": "Selector should be written in camel case."
+      }
+    ],
+    "no-descending-specificity": null,
+    "media-feature-range-notation": "context",
+    "color-named": "never",
+    "color-no-hex": true
+  }
+}

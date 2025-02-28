@@ -1,0 +1,13 @@
+@use "./reset";
+
+@layer global {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @supports (min-height: 100dvh) {
+    #root {
+      min-height: 100dvh;
+    }
+  }
+}
