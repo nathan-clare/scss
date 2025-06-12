@@ -1,0 +1,24 @@
+{
+  "name": "scss",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "postcss-scss": "^4.0.9",
+    "sass-embedded": "^1.83.4",
+    "stylelint": "^16.14.1",
+    "stylelint-config-standard": "^37.0.0",
+    "stylelint-config-standard-scss": "^14.0.0",
+    "stylelint-order": "^6.0.4",
+    "typescript": "~5.7.2",
+    "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "postcss": "^8.5.1"
+  }
+}
